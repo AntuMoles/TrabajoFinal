@@ -1,0 +1,31 @@
+.container {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #3490dc;
+  }
+  
+  .description {
+    margin-bottom: 2rem;
+    font-size: 1.125rem;
+  }
+  
+  .button {
+    padding: 1rem 2rem;
+    background-color: #3490dc;
+    color: white;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    transition: all 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #2779bd;
+    transform: scale(1.05);
+  }
+  
+  

@@ -1,0 +1,65 @@
+.container {
+    min-height: 100vh;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .darkMode {
+    background-color: #1a202c;
+    color: white;
+  }
+  
+  .lightMode {
+    background-color: #f7fafc;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3490dc;
+  }
+  
+  .toggleButton {
+    padding: 0.5rem;
+    border-radius: 9999px;
+    background-color: #3490dc;
+    color: white;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .navButton {
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s;
+  }
+  
+  .primaryButton {
+    background-color: #3490dc;
+    color: white;
+  }
+  
+  .primaryButton:hover {
+    background-color: #2779bd;
+  }
+  
+  .secondaryButton {
+    background-color: #ffed4a;
+    color: #2d3748;
+  }
+  
+  .secondaryButton:hover {
+    background-color: #f2d024;
+  }
+  
+  
